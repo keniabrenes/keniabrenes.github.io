@@ -1,6 +1,11 @@
+html, body {
+	height: 100%;
+}
+
 body {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: 16px;
+	
+	
+	font-size: 16px;
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -9,40 +14,29 @@ body {
     height:100%;
     overflow-x: hidden;
     display: block;
-    
 }
 
-.container {
-    min-height: 100%;
-    margin: auto;
-   
+.box {
+	text-align: center;
+	max-width: 70vw;
+	padding: 30px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	font-size: 30px;
+	line-height: 1.5;
+	transform: translateY(-50%);
+	perspective: 400px;
 }
 
-.highlight {
-    color: #686868;
+.source {
+	color: skyblue;
+	margin: 0 auto;
 }
 
-/* landing section*/
-
-#home {
-
-    background: url(https://cdn.stocksnap.io/img-thumbs/960w/LMUGL3LQ7X.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
 
-    background-color: rgba(231, 221, 194, 0.5);
-    color: white;
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    pointer-events: none;
-    z-index: 100;
-    
-}
-
+/*link*/
 
 div .text {
     display: center;
@@ -50,7 +44,7 @@ div .text {
     position: relative;
     top: 20px;
     font-size: 2.5em;
-    z-index: 1;
+    z-index: 100;
     
 }
 
@@ -68,9 +62,4 @@ a {
     text-decoration: none;
     color: #D0D7DD;
 
-}
-
-#link a:hover {
-  font-weight: bold;
-  background-color: #dbdad8;
 }
