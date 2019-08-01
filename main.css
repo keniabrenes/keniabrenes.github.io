@@ -57,11 +57,13 @@ footer li {
       
     }
 
-    a.fullname {
+
+
+a.fullname {
       margin-left: 14px;
     }
 
-    img.avatar {
+img.avatar {
       display: inline-block;
       width: 32px;
       height: 32px;
@@ -71,8 +73,6 @@ footer li {
       border-radius: 50%;
       float: left;
     }
-
-
 
 .intro {
 	text-align: center;
