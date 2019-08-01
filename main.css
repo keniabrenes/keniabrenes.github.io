@@ -1,6 +1,16 @@
-$avatar-size: 32px;
-$body-background: #fff0dc;
-$footer-background: #2d303a;
+avatar-size {
+  height: 32px;
+}
+
+
+body-background {
+  background:#fff0dc;
+}
+
+
+footer-background {
+    background:#2d303a;
+} 
 
 @font-face {
     font-family: 'ubuntu';
@@ -11,8 +21,8 @@ $footer-background: #2d303a;
 body {
   height: 100vh;
 	margin: 0;
-  background-color: $body-background;
-  font-family: "ubuntu", Arial, sans-serif;
+  background-color: #fff0dc;
+  font-family: 'ubuntu', Arial, sans-serif;
   overflow-x: hidden;
   display: grid;
   place-items: center;
@@ -28,10 +38,10 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: $footer-background;
+  background: #2d303a;
   border-top: 1px solid #dddddd;
-
-  ul {
+}
+footer ul {
     list-style-type: none;
     position: relative;
     display: flex;
@@ -40,25 +50,29 @@ footer {
     justify-content: space-between;
     padding: 0.2rem 1.5rem;
     line-height: 40px;
-
-    li {
-      img.avatar {
-        display: inline-block;
-        width: $avatar-size;
-        height: $avatar-size;
-        border-style: solid;
-        border-width: 4px;
-        border-color: #444857;
-        border-radius: 50%;
-        float: left;
-      }
-
-      a.fullname {
-        margin-left: 14px;
-      }
-    }
-  }
 }
+
+footer li {
+      
+      
+    }
+
+    a.fullname {
+      margin-left: 14px;
+    }
+
+    img.avatar {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      border-style: solid;
+      border-width: 4px;
+      border-color: #444857;
+      border-radius: 50%;
+      float: left;
+    }
+
+
 
 .intro {
 	text-align: center;
@@ -68,26 +82,25 @@ footer {
 
 .wrapper {
 	text-align: center;
-	h1 {
-	  color: #fff;
-    font-size: 92px;
-		font-family: 'ubuntu';
-		text-transform: uppercase;
-    font-weight: 700;
-    font-family: 'Josefin Sans',sans-serif;
-    background: linear-gradient(to right,#697dff 10%,#fff 50%,#5bdaff 60%);
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 1.5s linear infinite;
-    display: inline-block;
-	}
-	
+}
+
+.wrapper h1 {
+  color: #fff;
+  font-size: 92px;
+  font-family: 'ubuntu';
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Josefin Sans',sans-serif;
+  background: linear-gradient(to right,#697dff 10%,#fff 50%,#5bdaff 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
 }
 
 @keyframes textclip {
