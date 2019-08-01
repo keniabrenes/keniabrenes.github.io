@@ -22,90 +22,11 @@ body {
     color: #686868;
 }
 
-
-/* NAVIGATION */
-
-nav {
-    position: absolute;
-    margin: 0px;
-    bottom: 0;
-    background-color:#D4DADA;
-    height: 50px;
-    border-bottom: #CDB380 3px solid;
-    width: 100%;
-    z-index: 98;
-    
-}
-
-nav.fixed {
-    animation-name: popDown;
-    animation-duration: 0.5s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-}
-
-@keyframes popDown {
-    0% {
-        transform: translateY(-100px);
-    }
-}
-
-nav.fixed {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-
-}
-
-
-nav.fixed {
-    top: 0;
-    bottom: inherit;
-    left: 0;
-    position: fixed;
-
-}
-
-
-li { 
-    display: inline;
-    padding: 0px 20px;
-    margin: auto;
-    text-transform: uppercase;
-
-}
-
-
-nav a {
-    color:#707070;
-    text-decoration: none;
-    list-style-type: none;
-    cursor: pointer;
-    transition: color .5s;
-
-}
-
-nav a:hover {
-    font-weight: bold;
-    color:#a88e5a;
-}
-
-nav a .current {
-    color: #cdb380;
-    font-weight: bold;
-}
-
-
 /* landing section*/
 
 #home {
 
-    background: url(https://cdn.stocksnap.io/img-thumbs/960w/XCYJUYYV1S.jpg) no-repeat center center fixed; 
+    background: url(https://cdn.stocksnap.io/img-thumbs/960w/LMUGL3LQ7X.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -123,16 +44,13 @@ nav a .current {
 }
 
 
-
-
 div .text {
     display: center;
     text-align: center;
     position: relative;
-    top: 170px;
+    top: 20px;
     font-size: 2.5em;
     z-index: 1;
-    
     
 }
 
@@ -140,17 +58,19 @@ div .text {
     margin: 40px;
     padding-top: 40px;
     text-align: center;
-    
-    
-}
-
-.work a {
-    text-decoration: none;
-    color: #D0D7DD;
     border-style: solid; 
     border-color: #70707096;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.966);
 }
 
-/*CANVAS*/
+.work a {
+    text-decoration: none;
+    color: #D0D7DD;
+
+}
+
+#link a:hover {
+  font-weight: bold;
+  background-color: #dbdad8;
+}
