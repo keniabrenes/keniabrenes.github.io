@@ -105,7 +105,7 @@ nav a .current {
 
 #home {
 
-    background: url(https://cdn.stocksnap.io/img-thumbs/960w/8BGD7JT8CN.jpg) no-repeat center center fixed #000; 
+    background: url(https://cdn.stocksnap.io/img-thumbs/960w/52BQEEJF2J.jpg) no-repeat center center fixed #000; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -150,7 +150,7 @@ div .text {
     border-style: solid; 
     border-color: #70707096;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.925);
+    background-color: rgba(255, 255, 255, 0.966);
 }
 
 /*CANVAS*/
