@@ -54,7 +54,7 @@ div .text {
     
 }
 
-.work {
+#link {
     margin: 40px;
     padding-top: 40px;
     text-align: center;
@@ -64,7 +64,7 @@ div .text {
     background-color: rgba(255, 255, 255, 0.966);
 }
 
-.work a {
+a {
     text-decoration: none;
     color: #D0D7DD;
 
